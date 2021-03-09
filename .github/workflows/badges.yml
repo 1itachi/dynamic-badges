@@ -8,12 +8,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get the Numbers
-      run: echo "ANSWER=42" >> $GITHUB_ENV
+        run: echo "ANSWER=42" >> $GITHUB_ENV
       - name: Create the Badge
         uses: schneegans/dynamic-badges-action@v1.0.0
         with:
           auth: ${{ secrets.GIST_SECRET }}
-          gistID: <gist-ID>
+          gistID: ef5e6c565f44ad0553266659a03c2793
           filename: answer.json
           label: The Answer is
           message: ${{ env.ANSWER }}
