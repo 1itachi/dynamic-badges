@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Get the Numbers
         run: |
-          echo "ANSWER=42" >> $GITHUB_ENV
+          echo "ANSWER=84" >> $GITHUB_ENV
           echo "SECOND=60" >> $GITHUB_ENV
       - name: Create the Badge
         uses: schneegans/dynamic-badges-action@v1.0.0
