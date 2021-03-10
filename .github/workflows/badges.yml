@@ -17,7 +17,7 @@ jobs:
           auth: ${{ secrets.GIST_SECRET }}
           gistID: ef5e6c565f44ad0553266659a03c2793
           filename: answer.json
-          label: The Answer is
+          label: ""
           message: ${{ env.ANSWER }}
           color: success
       - name: Create the Badge
