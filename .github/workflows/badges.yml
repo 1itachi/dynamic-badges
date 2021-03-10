@@ -19,7 +19,7 @@ jobs:
           filename: answer.json
           label: The Answer is
           message: ${{ env.ANSWER }}
-          color: green
+          color: success
       - name: Create the Badge
         uses: schneegans/dynamic-badges-action@v1.0.0
         with:
@@ -28,4 +28,4 @@ jobs:
           filename: second.json
           label: second
           message: ${{ env.SECOND }}
-          color: green   
+          color: brightgreen   
