@@ -19,6 +19,7 @@ jobs:
           filename: answer.json
           label: ""
           namedLogo: sharp
+          logoColor: lightgrey
           message: ${{ env.ANSWER }}
           color: success
       - name: Create the Badge
@@ -29,5 +30,5 @@ jobs:
           filename: second.json
           label: second
           message: ${{ env.SECOND }}
-          style: flat
+          style: social
           color: brightgreen   
