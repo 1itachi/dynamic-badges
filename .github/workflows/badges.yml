@@ -18,6 +18,7 @@ jobs:
           gistID: ef5e6c565f44ad0553266659a03c2793
           filename: answer.json
           label: ""
+          namedLogo: sharp
           message: ${{ env.ANSWER }}
           color: success
       - name: Create the Badge
@@ -28,4 +29,5 @@ jobs:
           filename: second.json
           label: second
           message: ${{ env.SECOND }}
+          style: flat
           color: brightgreen   
