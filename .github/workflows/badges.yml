@@ -19,7 +19,7 @@ jobs:
           filename: answer.json
           label: ""
           namedLogo: sharp
-          logoColor: black
+          logoColor: inactive
           message: ${{ env.ANSWER }}
           color: success
       - name: Create the Badge
