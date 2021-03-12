@@ -30,5 +30,4 @@ jobs:
           filename: second.json
           label: second
           message: ${{ env.SECOND }}
-          style: social
           color: brightgreen   
