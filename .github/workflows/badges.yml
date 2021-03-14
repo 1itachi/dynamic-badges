@@ -11,6 +11,13 @@ jobs:
         run: |
           echo "ANSWER=84" >> $GITHUB_ENV
           echo "SECOND=60" >> $GITHUB_ENV
+      - name: Set color
+        run: |
+          if [$GITHUB_ENV -lt 20]
+          then
+            echo "::set-output name=color::red"
+ 
+          
       - name: Create the Badge
         uses: schneegans/dynamic-badges-action@v1.0.0
         with:
