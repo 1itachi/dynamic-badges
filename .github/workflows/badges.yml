@@ -14,22 +14,22 @@ jobs:
       - name: Set color
         id: set_color
         run: |
-          if [[ ${{env.ANSWER}} -eq 0 ]]
+          if[ ${{env.ANSWER}} -eq 0 ]
           then
             echo "::set-output name=color::grey"
-          elif [[ ${{env.ANSWER}} -le 20]]
+          elif[ ${{env.ANSWER}} -le 20]
           then
             echo "::set-output name=color::red"
-          elif [[ ${{env.ANSWER}} -le 40]]  
+          elif[ ${{env.ANSWER}} -le 40]
           then
              echo "::set-output name=color::orange"
-          elif [[ ${{env.ANSWER}} -le 60]]
+          elif[ ${{env.ANSWER}} -le 60]
           then
              echo "::set-output name=color::yellow"
-          elif [[ ${{env.ANSWER}} -le 80]]
+          elif[ ${{env.ANSWER}} -le 80]
           then
              echo "::set-output name=color::yellowgreen" 
-          elif [[ ${{env.ANSWER}} -ge 80]]
+          elif[ ${{env.ANSWER}} -ge 80]
           then
              echo "::set-output name=color::success"   
            fi  
