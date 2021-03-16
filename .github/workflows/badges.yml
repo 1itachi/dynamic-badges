@@ -44,7 +44,7 @@ jobs:
           namedLogo: sharp
           logoColor: inactive
           message: ${{ env.ANSWER }}
-          color: ${{steps.set_color.outputs.color}
+          color: ${{steps.set_color.outputs.color}}
       - name: Create the Badge
         uses: schneegans/dynamic-badges-action@v1.0.0
         with:
