@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Get the Numbers
         run: |
-          echo "ANSWER=34" >> $GITHUB_ENV
+          echo "ANSWER=54" >> $GITHUB_ENV
           echo "SECOND=60" >> $GITHUB_ENV
       - name: Set color
         id: set_color
