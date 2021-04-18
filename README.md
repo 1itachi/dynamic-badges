@@ -5,3 +5,4 @@ README
 ![test](https://img.shields.io/static/v1?label=''&message=test&color=critical)
 ![test](https://img.shields.io/static/v1?label=''&message=test&color=red)
 ![test](https://img.shields.io/static/v1?label=''&message=test&color=important) 
+![test](https://img.shields.io/static/v1?label=''&message=test)
